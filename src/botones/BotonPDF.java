@@ -22,7 +22,7 @@ public class BotonPDF extends javax.swing.JLabel implements MouseListener {
     public BotonPDF() {
         super();
         //se le da un tamaño        
-        this.setPreferredSize(new Dimension(260, 60));
+        this.setPreferredSize(new Dimension(80, 60));
         //se le coloca una imagen
         this.setIcon(new javax.swing.ImageIcon(getClass().getResource(IMAGEN_NORMAL)));
         //se cambia de cursor default por otro, el de la "manito"
@@ -30,6 +30,7 @@ public class BotonPDF extends javax.swing.JLabel implements MouseListener {
         //se añade los eventos del mouse
         this.addMouseListener(this);
         this.setFont(new java.awt.Font("Tahoma", 1, 12));
+        this.setText("Exportar a PDF");
         this.setBorder(null);
         this.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         this.setIconTextGap(-3);

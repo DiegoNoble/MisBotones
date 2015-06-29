@@ -13,13 +13,13 @@ import java.awt.event.MouseListener;
  *
  * @author dnoble
  */
-public class BotonExcel extends javax.swing.JLabel implements MouseListener {
+public class BotonEdicion extends javax.swing.JLabel implements MouseListener {
 
-    private final String IMAGEN_NORMAL = "/imagenes/xls_file_normal.png";
-    private final String IMAGEN_CHICA = "/imagenes/xls_file_chico.png";
-    private final String IMAGEN_GRANDE = "/imagenes/xls_file_grande.png";
+    private final String IMAGEN_NORMAL = "/imagenes/edit_normal.png";
+    private final String IMAGEN_CHICA = "/imagenes/edit_chico.png";
+    private final String IMAGEN_GRANDE = "/imagenes/edit_grande.png";
 
-    public BotonExcel() {
+    public BotonEdicion() {
         super();
         //se le da un tamaño        
         this.setPreferredSize(new Dimension(80, 60));

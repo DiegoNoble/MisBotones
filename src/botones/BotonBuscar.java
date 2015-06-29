@@ -1,7 +1,7 @@
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * and open the template in the searchor.
  */
 package botones;
 
@@ -13,13 +13,13 @@ import java.awt.event.MouseListener;
  *
  * @author dnoble
  */
-public class BotonExcel extends javax.swing.JLabel implements MouseListener {
+public class BotonBuscar extends javax.swing.JLabel implements MouseListener {
 
-    private final String IMAGEN_NORMAL = "/imagenes/xls_file_normal.png";
-    private final String IMAGEN_CHICA = "/imagenes/xls_file_chico.png";
-    private final String IMAGEN_GRANDE = "/imagenes/xls_file_grande.png";
+    private final String IMAGEN_NORMAL = "/imagenes/search_normal.png";
+    private final String IMAGEN_CHICA = "/imagenes/search_chico.png";
+    private final String IMAGEN_GRANDE = "/imagenes/search_grande.png";
 
-    public BotonExcel() {
+    public BotonBuscar() {
         super();
         //se le da un tamaño        
         this.setPreferredSize(new Dimension(80, 60));

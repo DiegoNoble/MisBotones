@@ -1,7 +1,7 @@
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
- * and open the template in the searchor.
+ * and open the template in the cancelor.
  */
 package botones;
 
@@ -13,13 +13,13 @@ import java.awt.event.MouseListener;
  *
  * @author dnoble
  */
-public class BotonBuscar extends javax.swing.JLabel implements MouseListener {
+public class BotonCancelar extends javax.swing.JLabel implements MouseListener {
 
-    private final String IMAGEN_NORMAL = "/imagenes/search_normal.png";
-    private final String IMAGEN_CHICA = "/imagenes/search_chico.png";
-    private final String IMAGEN_GRANDE = "/imagenes/search_grande.png";
+    private final String IMAGEN_NORMAL = "/imagenes/cancel_normal.png";
+    private final String IMAGEN_CHICA = "/imagenes/cancel_chico.png";
+    private final String IMAGEN_GRANDE = "/imagenes/cancel_grande.png";
 
-    public BotonBuscar() {
+    public BotonCancelar() {
         super();
         //se le da un tamaño        
         this.setPreferredSize(new Dimension(80, 60));
@@ -30,7 +30,7 @@ public class BotonBuscar extends javax.swing.JLabel implements MouseListener {
         //se añade los eventos del mouse
         this.addMouseListener(this);
         this.setFont(new java.awt.Font("Tahoma", 1, 12));
-        this.setText("Buscar");
+        this.setText("Cancelar");
         this.setBorder(null);
         this.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         this.setIconTextGap(-3);

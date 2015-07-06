@@ -30,7 +30,7 @@ public class BotonPagar extends javax.swing.JLabel implements MouseListener {
         //se añade los eventos del mouse
         this.addMouseListener(this);
         this.setFont(new java.awt.Font("Tahoma", 1, 12));
-        this.setText("Buscar");
+        this.setText("Pagar");
         this.setBorder(null);
         this.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         this.setIconTextGap(-3);
